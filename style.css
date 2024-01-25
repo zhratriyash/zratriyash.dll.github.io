@@ -1,0 +1,118 @@
+*{
+    font-family: Arial;
+}
+
+/* Header */
+
+.header{
+    /*display:flex; */
+    background-color: rgb(160, 126, 95);
+    padding: 10px;
+}
+
+.header-logo{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.header-logo img{
+    height:100px;
+}
+
+.header-title{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.header-title a{
+    text-decoration:none;
+    font: size 24px;
+    font-weight: bold;
+    color:black;
+}
+
+.nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav-item a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color:rgb(160, 108, 95);
+}
+
+/*konten*/
+
+.konten{
+    width: 80%;
+    margin:auto
+}
+
+.konten h1{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.konten h2{
+    font: 22px;
+    color: rgb(0, 0, 0);
+}
+
+/*table*/
+
+.table{
+    border-spacing: 4px;
+}
+
+.table-header{
+    background-color: rgb(201, 175, 150);
+}
+
+.table-header th{
+    padding: 10px;
+    text-align: left;
+}
+
+.table-konten{
+    background-color: azure;
+}
+
+.table-genap{
+    background-color: aliceblue;
+}
+
+.table-konten td{
+    padding: 10px;
+}
+
+td>img{
+    width: 100px;
+}
+
+.table-konten:hover{
+    background-color: rgb(201, 175, 150);
+}
+
+/*form*/
+
+.form-grup{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-grup label{
+    display: block;
+    font-size: 20px;
+    color: rgb(51, 48, 48);
+}
